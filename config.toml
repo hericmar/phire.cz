@@ -2,4 +2,11 @@ theme = "default"
 
 baseURL = "http://phire.cz/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Martin Herich"
+
+[params]
+author = "Martin Herich"
+avatar = "img/Portrait_Placeholder.png"
+brief = "Software Engineering and Computer Graphics."
+email = "martin.herich@phire.cz"
+keys = "https://keys.openpgp.org/vks/v1/by-fingerprint/37155E559CAF95D1A680CA2B83A39511C627D7C8"
