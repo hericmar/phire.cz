@@ -1,0 +1,5 @@
+theme = "default"
+
+baseURL = "http://phire.cz/"
+languageCode = "en-us"
+title = "My New Hugo Site"
