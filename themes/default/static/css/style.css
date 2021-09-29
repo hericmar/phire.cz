@@ -1,10 +1,18 @@
+:root {
+    --font-color: whitesmoke;
+    --link-color: whitesmoke;
+}
+
 html {
-    background-color: aliceblue;
+    background-color: black;
+    color: var(--font-color);
+    max-height: 100vh;
 }
 
 body {
     font-family: 'Inter', sans-serif;
     font-size: 1.5rem;
+    margin: 0;
 }
 
 h1 {
@@ -14,12 +22,24 @@ h1 {
     text-overflow: ellipsis;
 }
 
+a {
+    color: var(--link-color);
+}
+
+#canvas {
+    display: block;
+}
+
 .center {
     position: absolute;
     top: 50%;
     left: 50%;
     max-width: 80%;
     transform: translate(-50%, -50%);
+
+    padding: 1.5rem;
+    background-color: rgba(58, 58, 58, 0.95);
+    border-radius: 1rem;
 }
 
 .container {

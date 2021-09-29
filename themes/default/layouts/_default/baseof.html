@@ -7,5 +7,10 @@
         {{- block "main" . }}{{- end }}
         </div>
         {{- partial "footer.html" . -}}
+
+        <canvas id="canvas"></canvas>
+        <script>
+            init("img/star.png")
+        </script>
     </body>
 </html>
